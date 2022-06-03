@@ -1,0 +1,25 @@
+
+	<nav  >
+		<div class=" text-center bg-gradient-to-r from-primary to-secondary lg:flex lg:justify-between py-10">
+			<a class="lg:px-20 text-white text-3xl font-bold" href="./index.html">Festival Garrigues</a>
+
+			<div class=" mt-5 lg:mt-0 lg:px-20 "  >
+				<ul class=" lg:flex lg:gap-3"  >
+					<li class="text-success text-xl" >
+						<a  class="hover:text-white navlink {{ if (currentPage === 'home') { 'text-white' } }}" href="#">Inici</a>
+					</li>
+					<li class="text-success text-xl">
+						<a  class=" hover:text-white navlink {{ if (currentPage === 'bandes') { 'text-white' } }}"href="index.html">Bandes</a>
+					</li>
+					<li  class="text-success text-xl">
+						<a class=" hover:text-white navlink {{ if (currentPage === 'blog') { 'text-white' } }}" href="blog.html">Blog</a>
+					</li>
+					<li class="text-success text-xl ">
+						<a class="hover:text-white navlink {{ if (currentPage === 'contacte') { 'text-white' } }}" href="#">Contacte</a>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+	</nav>
